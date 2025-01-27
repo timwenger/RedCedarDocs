@@ -96,7 +96,7 @@ After I was happy with the main set of keys, I got down to work on the thumb clu
 
 Then I integrated the thumb cluster and the main set of keys into one piece and built an outer keyboard wall around it to hold it up. I designed the wall to be a separate piece so that I could more easily solder the keys into the sockets.
 
-The final modeling needed was to create mounts for the main processor and holes for the USB ports. I waited to to this until I had physically built the electrical portion so that I could better estimate what would fit.
+The final modeling needed was to create mounts for the main processor and holes for the USB ports. I waited to do this until I had physically built the electrical portion so that I could better estimate what would fit.
 
 You can see the steps I took to model it by using the "Roll back bar". When you drag this bar back through the history of changes, you can see the changes made, and even make edits at that time, then roll the bar forward in time again. Very cool!
 
@@ -146,9 +146,10 @@ Aside from the main key switches, I also connected the buttons as though they we
 
 <img src="./pics/WiringSchematicButtons.png" alt="Buttons wiring schematic" width="500">
 <img src="./pics/WiringSchematicProcessor.png" alt="Processor wiring schematic" width="500">
+<img src="./pics/PinOut.png" alt="Pin-Out diagram" width="500">
 
 ## The host breadboard PCB
-I mounted the [RP2040 processor](https://www.aliexpress.com/item/1005005881019149.html) on [header pins](https://www.aliexpress.com/item/33052907672.html) so that it can be easily replaced. With the extra space underneath the headers, I fit all the wires that would go to the cables. 
+I mounted the [RP2040 processor](https://www.aliexpress.com/item/1005005881019149.html) on [header pins](https://www.aliexpress.com/item/33052907672.html) so that it can be easily replaced. With the extra space underneath the headers, I fit all the wires that would go to the connectors. 
 
 A single [breadboard PCB](https://www.aliexpress.com/item/32944023746.html) can be used for both keyboard halves. Once cut in half, I shaped it using sandpaper to properly fit it on the keyboard side wall. I also drilled mounting holes and a larger hole to fit the four [RJ9 connector](https://www.aliexpress.com/item/1005004927524975.html) pins.
 
@@ -175,4 +176,4 @@ I found that the resulting weight (which used about 11" of flat bar per side) wa
 ## Closing
 I hope this guide makes your keyboard building adventure more straight forward, and I look forward to seeing your build on the reddit community!
 
-If I were to make another version of the keyboard,i would want to make the key switches swappable without having to unsolder them, in case I wanted to try lighter spring weights.
+If I were to make another version of the keyboard, I would want to make the key switches swappable without having to unsolder them, in case I wanted to try lighter spring weights or something else
